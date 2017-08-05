@@ -1,6 +1,7 @@
 /**
  * Created by Aleksandr on 05.08.2017.
  * loc 01
+ * loc 02
  */
 /*
  ms 01
