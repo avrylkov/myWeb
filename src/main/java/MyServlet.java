@@ -5,13 +5,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 /**
  * Created by Aleksandr on 05.08.2017.
  */
 @WebServlet("/srv")
 public class MyServlet extends HttpServlet {
+
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -27,7 +27,7 @@ public class MyServlet extends HttpServlet {
 //        out.println("Hello Word 2");
 
         boolean res = new Logics().eq(1, 2);
-        String varTextA = "Hello World!" ;
+        String varTextA = "Hello World!";
         request.setAttribute("textA", varTextA);
         String varTextB = "It JSP." + res;
         request.setAttribute("textB", varTextB);

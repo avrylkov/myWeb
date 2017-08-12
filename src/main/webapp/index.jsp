@@ -4,6 +4,9 @@
   Date: 05.08.2017
   Time: 7:17
   To change this template use File | Settings | File Templates.
+
+  b1 01
+
 --%>
 <%--
   rem 01
